@@ -1,0 +1,24 @@
+//
+//  Release.xcconfig
+//  Loop Test User
+//
+
+DEBUG_INFORMATION_FORMAT = dwarf-with-dsym
+
+VALIDATE_PRODUCT = YES
+
+ENABLE_NS_ASSERTIONS = NO
+
+MTL_ENABLE_DEBUG_INFO = NO
+
+LD_RUNPATH_SEARCH_PATHS = $(inherited) @executable_path/Frameworks
+
+INFOPLIST_FILE = Loop-TestUser/Info.plist
+
+PRODUCT_BUNDLE_IDENTIFIER = ms.loop.Loop-TestUser
+
+PRODUCT_NAME = Loop Test User
+
+FRAMEWORK_SEARCH_PATHS = $(inherited) $(PROJECT_DIR)/Carthage/Build/iOS
+
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon
